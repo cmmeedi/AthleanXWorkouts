@@ -1,10 +1,15 @@
-*{
+$Red1: rgb(201, 0, 0);
+
+#navigationHeader a{
+    color: white;
+}
+
+body{
     color: white !important;
     background-color: black;
 }
 
 .col{
-    border: 3px solid black;
     height: 300px;
 }
 
@@ -19,3 +24,13 @@
     background-color: white;
 }
 
+#bicepDescription{
+    box-shadow:  3px 3px 12px $Red1, -3px -3px 12px $Red1;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.workout:hover{
+    box-shadow:  3px 3px 12px $Red1, -3px -3px 12px $Red1;
+    transition: box-shadow .6s;
+}
